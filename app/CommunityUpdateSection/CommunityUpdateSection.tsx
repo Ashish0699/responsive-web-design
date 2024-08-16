@@ -18,58 +18,56 @@ const CommunityUpdateSection = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-8 justify-center">
-            <div className="w-full md:w-1/3 mb-4 flex justify-center">
-              <div className="relative w-full max-w-xs">
+          <div className="row flex flex-wrap community-card-section">
+            <div className="col-md-4 mx-auto d-flex justify-content-center">
+              <div className="card-relative">
                 <img
-                  className="w-full h-auto"
+                  className="img-fluid"
                   src="./images/image18.png"
-                  alt="Creating Streamlined Safeguarding Processes"
+                  alt="image"
+                  height="286"
+                  width="368"
                 />
-                <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 p-4 text-white">
-                  <h5 className="text-lg font-bold mb-4 text-center">
+                <div className="community-card p-3">
+                  <h5 className="black text-center mb-4">
                     Creating Streamlined Safeguarding Processes with OneRen
                   </h5>
-                  <h5 className="text-primary text-center cursor-pointer">
-                    Read More →
-                  </h5>
+                  <h5 className="primary text-center">Read More→</h5>
                 </div>
               </div>
             </div>
-
-            <div className="w-full md:w-1/3 mb-4 flex justify-center">
-              <div className="relative w-full max-w-xs">
+            <div className="col-md-4 col-12 mb-4 community-card-div mx-auto d-flex justify-content-center">
+              <div className="card-relative">
                 <img
-                  className="w-full h-auto"
+                  className="img-fluid"
                   src="./images/image19.png"
-                  alt="Safeguarding Responsibilities"
+                  alt="image"
+                  height="286"
+                  width="368"
                 />
-                <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 p-4 text-white">
-                  <h5 className="text-lg font-bold mb-4 text-center">
+                <div className="community-card p-3">
+                  <h5 className="black text-center mb-4">
                     What are your safeguarding responsibilities and how can you
                     manage them?
                   </h5>
-                  <h5 className="text-primary text-center cursor-pointer">
-                    Read More →
-                  </h5>
+                  <h5 className="primary text-center">Read More→</h5>
                 </div>
               </div>
             </div>
-
-            <div className="w-full md:w-1/3 mb-4 flex justify-center">
-              <div className="relative w-full max-w-xs">
+            <div className="col-md-4 col-12 mb-4 community-card-div mx-auto d-flex justify-content-center">
+              <div className="card-relative">
                 <img
-                  className="w-full h-auto"
+                  className="img-fluid"
                   src="./images/image20.png"
-                  alt="Revamping Membership Model"
+                  alt="image"
+                  height="286"
+                  width="368"
                 />
-                <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 p-4 text-white">
-                  <h5 className="text-lg font-bold mb-4 text-center">
+                <div className="community-card p-3">
+                  <h5 className="black text-center mb-4">
                     Revamping the Membership Model with Triathlon Australia
                   </h5>
-                  <h5 className="text-primary text-center cursor-pointer">
-                    Read More →
-                  </h5>
+                  <h5 className="primary text-center">Read More→</h5>
                 </div>
               </div>
             </div>

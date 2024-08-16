@@ -17,7 +17,7 @@ const SliderComponent = () => {
               media?
             </div>
             <div>
-              <button className="px-6 py-3 bg-green-500 text-white rounded-md hover:bg-blue-600 transition">
+              <button className="px-6 py-3 bg-green-500 text-white rounded-md  transition">
                 Register
               </button>
             </div>

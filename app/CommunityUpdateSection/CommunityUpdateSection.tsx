@@ -32,7 +32,7 @@ const CommunityUpdateSection = () => {
                   <h5 className="black text-center mb-4">
                     Creating Streamlined Safeguarding Processes with OneRen
                   </h5>
-                  <h5 className="primary text-center">Read More→</h5>
+                  <h5 className="text-green-600 text-center">Read More→</h5>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ const CommunityUpdateSection = () => {
                     What are your safeguarding responsibilities and how can you
                     manage them?
                   </h5>
-                  <h5 className="primary text-center">Read More→</h5>
+                  <h5 className="text-green-600 text-center">Read More→</h5>
                 </div>
               </div>
             </div>
@@ -67,7 +67,7 @@ const CommunityUpdateSection = () => {
                   <h5 className="black text-center mb-4">
                     Revamping the Membership Model with Triathlon Australia
                   </h5>
-                  <h5 className="primary text-center">Read More→</h5>
+                  <h5 className="text-green-600 text-center">Read More→</h5>
                 </div>
               </div>
             </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ManageYourEntireCommunity from "./ManageYourEntireCommunity/ManageYourEntireCommunity";
 import HelpingPage from "./Helping/HelpingPage";
 import CustomerSection from "./CustomerSection/CustomerSection";

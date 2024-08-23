@@ -71,7 +71,7 @@ const SliderComponent = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2300,
+          delay: 2600,
           disableOnInteraction: false,
         }}
         pagination={{

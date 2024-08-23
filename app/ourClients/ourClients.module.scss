@@ -1,0 +1,35 @@
+.clientLogoContainer {
+    position: relative;
+
+    .clientLogoOverlay {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-size: 100%;
+    }
+
+    .clientLogo {
+        white-space: nowrap;
+        width: max-content;
+        transform: translate3d(-25%, 0, 0);
+        animation: slide 235s linear infinite;
+
+        @keyframes slide {
+            0% {
+                transform: translate3d(-25%, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(-75%, 0, 0);
+            }
+        }
+    }
+
+    &:hover {
+        .clientLogo {
+            animation-play-state: paused;
+        }
+    }
+}

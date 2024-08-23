@@ -3,7 +3,7 @@ import React from "react";
 const HelpingPage = () => {
   return (
     <>
-      <div className="w-full py-8 achievement-section">
+      <div className="w-full py-8 achievement-section flex items-center	">
         <div className="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row justify-between items-center">
           <div className="w-full lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
             <h1 className="text-2xl md:text-3xl font-semibold">
